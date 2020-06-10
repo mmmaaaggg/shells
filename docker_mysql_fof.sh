@@ -11,6 +11,6 @@ docker run -d --name app_mysql \
            -p 3307:3306 \
            -v /var/docker_data/mysql/fof/cnf.d:/etc/my.cnf.d \
            -v /var/docker_data/mysql/fof/data:/var/lib/mysql/data \
-           -v /var/docker_data/mysql/fof/log:/var/log/mysql
+           -v /var/docker_data/mysql/fof/log:/var/log/mysql \
            -e MYSQL_ROOT_PASSWORD=Abcd1234 \
            mysql:5.7
