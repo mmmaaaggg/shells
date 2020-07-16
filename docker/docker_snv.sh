@@ -1,11 +1,1 @@
-mkdir -p /usr/local/svn
-mkdir -p /usr/local/apache2
-touch /usr/local/svn/passwd
-docker run -v /usr/local/svn:/home/svn \
-           -v /usr/local/svn/passwd:/etc/subversion/passwd \
-           -v /usr/local/apache2:/run/apache2 \
-           --name redm_axure \
-           -p 3380:13380 \
-           -p 3690:13960 \
-           -e SVN_REPONAME=repos \
-           -d docker.io/elleflorio/svn-server
+docker run --restart always --name redm_axure -d -v /root/dockers/svn:/var/opt/svn -p 13690:3690 garethflowers/svn-server
