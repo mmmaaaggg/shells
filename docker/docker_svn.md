@@ -1,8 +1,13 @@
+### 进入docker
 ```bash
 docker exec -it hltz_svn /bin/sh
 ```
+### 创建资源库
 ```bash
 svnadmin create /home/svn/repos
+```
+### 资源库配置
+```bash
 cd /var/svn/repository/conf
 vi svnserve.conf # 把下面4个的#号去掉,左边不能有空格
 
