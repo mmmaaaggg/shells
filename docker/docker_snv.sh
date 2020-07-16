@@ -1,3 +1,6 @@
+mkdir -p /usr/local/svn
+mkdir -p /usr/local/apache2
+touch /usr/local/svn/passwd
 docker run -v /usr/local/svn:/home/svn \
            -v /usr/local/svn/passwd:/etc/subversion/passwd \
            -v /usr/local/apache2:/run/apache2 \
