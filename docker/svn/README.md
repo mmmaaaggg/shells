@@ -53,3 +53,11 @@ admin = rw        # 用户 admin 在所有仓库拥有读写权限
 ```
 svn co svn://127.0.0.1:13690/redm_axure
 ```
+
+---
+# 迁移
+## dump 出源机器的SVN代码库
+svnadmin dump /usr/local/webserver/svn/ > svn20200716.dump
+
+## 导入
+svnadmin load /home/yst/svn/svn-admin/repos4 < 2414.dump
