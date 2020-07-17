@@ -43,6 +43,7 @@ xieguojuan = xieguojuan
 wulin = wulin
 wangjiatong = wangjiatong
 zhouzhongjie = zhouzhongjie
+gaosiyang = gaosiyang
 ```
 
 ### 配置账户权限，修改 authz文件
@@ -58,6 +59,7 @@ xieguojuan = rw
 wulin = rw
 wangjiatong = rw
 zhouzhongjie = rw
+gaosiyang = rw
 [redm_axure:/]           # 表示以下用户在仓库 svn 的所有目录有相应权限
 @owner = rw       # 表示 owner 组下的用户拥有读写权限
 ```
