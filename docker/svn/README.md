@@ -37,6 +37,12 @@ realm = /var/opt/svn/redm_axure       # 认证命名空间，会在认证提示�
 # harry = harryssecret
 # sally = sallyssecret
 admin = Jicredm123
+gaotiange = gaotiange
+dujingqing = dujingqing
+xieguojuan = xieguojuan
+wulin = wulin
+wangjiatong = wangjiatong
+zhouzhongjie = zhouzhongjie
 ```
 
 ### 配置账户权限，修改 authz文件
