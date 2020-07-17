@@ -51,6 +51,13 @@ zhouzhongjie = zhouzhongjie
 owner = admin
 [/]               # / 表示所有仓库
 admin = rw        # 用户 admin 在所有仓库拥有读写权限
+lishuai = rw
+gaotiange = rw
+dujingqing = rw
+xieguojuan = rw
+wulin = rw
+wangjiatong = rw
+zhouzhongjie = rw
 [redm_axure:/]           # 表示以下用户在仓库 svn 的所有目录有相应权限
 @owner = rw       # 表示 owner 组下的用户拥有读写权限
 ```
