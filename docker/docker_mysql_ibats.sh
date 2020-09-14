@@ -18,4 +18,5 @@ docker run -d --name mysql_$db_name \
            -e MYSQL_ROOT_PASSWORD=Abcd1234 \
            mysql:5.7
 docker start mysql_$db_name
+apt install mysql-client-core-5.7
 
