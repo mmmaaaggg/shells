@@ -1,3 +1,4 @@
+set -x
 # 构建 Mysql 5.7数据库
 docker pull mysql:5.7
 # 创建数据存储目录 和配置文件目录
