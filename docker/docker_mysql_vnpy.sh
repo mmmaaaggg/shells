@@ -13,7 +13,7 @@ touch /var/docker_data/mysql/$db_name/conf/my.cnf
 # 创建并运行容器
 docker run -d --name mysql_$db_name \
            -p $port:3306 \
-           -v /var/docker_data/mysql/$db_name/conf:/etc/my.cnf.d \
+           -v /var/docker_data/mysql/$db_name/conf:/etc/mysql \
            -v /var/docker_data/mysql/$db_name/mysql:/var/lib/mysql \
            -v /var/docker_data/mysql/$db_name/log:/var/log/mysql \
            -e MYSQL_ROOT_PASSWORD=Abcd1234 \
